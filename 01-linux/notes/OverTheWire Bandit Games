@@ -1,0 +1,19 @@
+Bandit Level 0
+
+Challenge: Log into the Bandit server.
+
+Solution:
+
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+Explanation:
+
+ssh starts a secure shell session.
+bandit0 is the username.
+bandit.labs.overthewire.org is the host
+-p 2220 specifies the port.
+
+Password: [password here]
+
+What I learned:
+SSH lets you remotely connect to another Linux computer.
