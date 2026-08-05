@@ -1,0 +1,17 @@
+Bandit Level 9 - Level 10
+
+Challenge: Find the human-readable password in data.txt. It is preceded by several = characters.
+
+Solution:
+
+strings data.txt | grep '='
+
+Explanation:
+strings data.txt extracts all human-readable text from the binary file.
+| (pipe) sends the output of one command to another.
+grep '=' searches for lines containing =, where the password is located.
+
+Password: B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
+
+What I learned:
+Combining strings with grep is an efficient way to search for specific text inside binary files.
