@@ -11,7 +11,7 @@ Explanation:
 Files beginning with - are mistaken for command options.
 ./- tells Linux it's a filename.
 
-Password: PK8fYLZg2hnHSz83plBL1iEPKD3QToB
+Password: PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 
 What I learned:
 Use ./ to reference oddly named files.
