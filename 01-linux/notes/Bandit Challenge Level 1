@@ -1,0 +1,17 @@
+Bandit Level 1 - Level 2
+
+Challenge: Read a file named -.
+
+Solution:
+
+cat ./-
+
+Explanation:
+
+Files beginning with - are mistaken for command options.
+./- tells Linux it's a filename.
+
+Password: PK8fYLZg2hnHSz83plBL1iEPKD3QToB
+
+What I learned:
+Use ./ to reference oddly named files.
