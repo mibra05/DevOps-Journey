@@ -1,1 +1,18 @@
+Bandit Level 4 - Level 5
 
+Challenge: Find the only human-readable file in the inhere directory
+
+Solution:
+
+cd inhere
+file ./*
+cat ./-file07
+
+Explanation:
+The file command identifies file types.
+* searches every file and directory name
+
+Password: 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
+
+What I learned:
+file determines what kind of data is inside a file.
