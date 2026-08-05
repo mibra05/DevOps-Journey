@@ -1,0 +1,28 @@
+Bandit Level 5 - Level 6
+
+Challenge: Find a file in the inhere directory with these properties:
+
+Human-readable
+1033 bytes
+Not executable
+
+Solution:
+
+cd inhere
+find -readable -size 1033c \! -executable
+cat ./maybehere07/.file2
+
+Explanation:
+
+find searches recursively.
+-size 1033c means exactly 1033 bytes.
+\! means no
+\! -executable excludes executable files.
+file identifies text files.
+
+Password: pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+
+What I learned:
+find can combine many search conditions
+\! means no
+c = bytes.
