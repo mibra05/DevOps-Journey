@@ -1,0 +1,18 @@
+Bandit Level 6 - Level 7
+
+Challenge: Find a file owned by bandit7, group bandit6, size 33 bytes.
+
+Solution:
+
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+cat /var/lib/dpkg/info/bandit7.password
+
+Explanation:
+
+2>/dev/null hides permission errors.
+/ searches the whole system.
+
+Password: Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
+
+What I learned:
+Standard error can be redirected separately using 2>/dev/null.
