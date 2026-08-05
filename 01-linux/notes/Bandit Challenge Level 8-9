@@ -1,1 +1,18 @@
+Bandit Level 8 - Level 9
 
+Challenge: Find the unique line.
+
+Solution:
+
+sort data.txt | uniq -u
+
+Explanation:
+sort command sorts the file into alphabetical order and put duplicates on the same line
+this '|' character pipes the sort command into the next command which is uniq -u
+uniq only works on sorted data.
+-u only prints unique lines
+
+Password: EJmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+
+What I learned:
+Many Linux tools are designed to work together.
