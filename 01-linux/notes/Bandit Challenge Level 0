@@ -1,0 +1,21 @@
+Bandit Level 0 - Level 1
+
+Challenge: Find the password in the readme file in the home directory.
+
+Solution:
+
+ls
+cat readme
+exit
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+Explanation:
+
+ls lists files.
+cat readme displays the password.
+exit is used to close the current shell or terminal session.
+ssh logs into the next level on port 2220.
+
+Password: 6y2kwnwK6grgvwvpvLaa2T1cpFEK0hNR
+
+What I learned: Use cat to read files and ssh to connect to the next Bandit level.
