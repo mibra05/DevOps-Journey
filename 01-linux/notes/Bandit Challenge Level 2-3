@@ -1,0 +1,20 @@
+Bandit Level 2 - Level 3
+
+Challenge: Read a file with spaces in its name.
+
+Solution:
+
+cat ./'--spaces in this filename--'
+
+Explanation:
+
+./ tells Linux to look for the file in the current directory.
+The quotes (' ') keep the filename, including its spaces, as a single argument.
+Without quotes, Linux would treat each word as a separate filename.
+
+Password: 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
+
+What I learned:
+Filenames with spaces must be enclosed in quotes (or have the spaces escaped).
+./ is a reliable way to specify a file in the current directory, especially when the filename contains spaces 
+or special characters.
