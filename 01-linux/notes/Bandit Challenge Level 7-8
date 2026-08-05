@@ -1,0 +1,15 @@
+Bandit Level 7 → Level 8
+
+Challenge: Find the password beside the word "millionth".
+
+Solution:
+
+grep millionth data.txt
+
+Explanation:
+grep searches text files.
+
+Password: VR1ljMayci
+
+What I learned:
+grep is one of Linux's most useful search tools for files
