@@ -13,7 +13,5 @@ bandit0 is the username.
 bandit.labs.overthewire.org is the host
 -p 2220 specifies the port.
 
-Password: [password here]
-
 What I learned:
 SSH lets you remotely connect to another Linux computer.
