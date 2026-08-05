@@ -1,0 +1,19 @@
+Bandit Level 3 - Level 4
+
+Challenge: Find a hidden file in the inhere directory
+
+Solution:
+
+cd inhere
+ls -la
+cat ...Hiding-From-You
+
+Explanation:
+
+-a shows hidden files.
+-l displays detailed information.
+
+Password: xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
+
+What I learned:
+Hidden files start with a full stop (.).
