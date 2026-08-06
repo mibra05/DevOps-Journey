@@ -1,0 +1,13 @@
+Challenge: Decode Base64.
+
+Solution:
+
+base64 -d data.txt
+
+Explanation:
+-d decodes Base64.
+
+Password: pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
+
+What I learned:
+Base64 is encoding, not encryption.
