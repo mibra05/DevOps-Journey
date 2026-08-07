@@ -27,7 +27,9 @@ Explanation
 cat displays the current level's password.
 nc localhost 30000 opens a TCP connection to port 30000 on the current machine.
 Sending the correct password prompts the server to return the password for the next level.
+
 What I learned
+
 nc (Netcat) can connect to network services and send data.
 localhost refers to the current machine you're logged into.
 Some services require you to send input before they respond with data.
