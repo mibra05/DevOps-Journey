@@ -1,4 +1,4 @@
-Bandit Level 12 → Level 13
+Bandit Level 12 - Level 13
 
 Challenge: Repeatedly decompress a file.
 
@@ -12,7 +12,7 @@ xxd -r file1 > file2 - reverse the hexadecimal dump back into its original binar
 file file2 - find decompression of first file
 
 Continue using:
-
+ss
 gzip -d (file-name).gz
 bzip2 -d (file-name).bz
 tar -xf (file-name).tar
