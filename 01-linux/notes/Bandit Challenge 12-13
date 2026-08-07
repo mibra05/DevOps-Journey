@@ -1,1 +1,35 @@
+Bandit Level 12 → Level 13
 
+Challenge: Repeatedly decompress a file.
+
+Solution:
+
+mktemp -d - create temp directory
+cp -t /tmp /tmp.qUByq2Xe3X data.txt - copy file into temp dir
+cd /tmp /tmp.qUByq2Xe3X - move into temp dir
+mv data.txt file1 - change name of file
+xxd -r file1 > file2 - reverse the hexadecimal dump back into its original binary data.
+file file2 - find decompression of first file
+
+Continue using:
+
+gzip -d (file-name).gz
+bzip2 -d (file-name).bz
+tar -xf (file-name).tar
+
+after every decompression use ls to find the new file created
+then use file (file name) to find the new decompression
+
+all the way until you reach the final text file.
+
+Explanation:
+
+Use file to identify the file type after each extraction.
+Decompress repeatedly until you reach the final text file.
+
+Password: qQYQiHOBPR8zR61qxYqX45quvihF2uzk
+
+What I learned:
+
+file helps determine the correct extraction tool to use.
+Some files are compressed multiple times and must be extracted step by step.
