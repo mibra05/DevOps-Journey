@@ -1,0 +1,33 @@
+Bandit Level 14 - Level 15
+
+Challenge: Submit the password for bandit14 to port 30000 on localhost to receive the password for the next level.
+
+Solution
+
+Read the password for bandit14:
+
+cat /etc/bandit_pass/bandit14
+
+Connect to port 30000 on localhost using nc:
+
+nc localhost 30000
+
+Paste the password into the connection and press Enter:
+
+
+
+If the password is correct, the server responds with:
+
+Correct!
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+The second line is the password for bandit15.
+
+Explanation
+cat displays the current level's password.
+nc localhost 30000 opens a TCP connection to port 30000 on the current machine.
+Sending the correct password prompts the server to return the password for the next level.
+What I learned
+nc (Netcat) can connect to network services and send data.
+localhost refers to the current machine you're logged into.
+Some services require you to send input before they respond with data.
